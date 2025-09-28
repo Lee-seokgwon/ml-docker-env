@@ -29,3 +29,18 @@ conda create -n torch2 python=3.10 pytorch torchvision torchaudio pytorch-cuda=1
 source /opt/conda/etc/profile.d/conda.sh && conda activate torch2
 python -c "import torch; print(torch.__version__); print(torch.cuda.get_device_name(0))"
 ```
+
+---
+
+## 📦 추가 설치 패키지 (optional)
+
+```bash
+# HuggingFace NLP/멀티모달
+pip install transformers datasets evaluate
+
+# 실험 관리 & 시각화
+pip install wandb tensorboard matplotlib seaborn tqdm
+
+# 데이터 처리 & 전처리
+pip install opencv-python albumentations scikit-learn
+```
