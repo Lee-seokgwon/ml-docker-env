@@ -4,7 +4,9 @@
 
 ### 0. 호스트 HW 환경
 <img width="868" height="806" alt="Screenshot from 2025-09-29 01-25-11" src="https://github.com/user-attachments/assets/eddf2ca0-2eb5-47ed-ab98-8b00d3148cfa" />
-호스트 HW가 다르면, 도커파일 내부 베이스 이미지를 확인 후 수정해야함 (HW마다 cuDNN, Cuda 지원범위가 다름)
+<br> 호스트 HW가 다르면, 도커파일 내부 베이스 이미지를 확인 후 수정해야함 (HW마다 cuDNN, Cuda 지원범위가 다름)
+
+---
 
 ### 1. 컨테이너 빌드 & 실행
 
